@@ -6,3 +6,17 @@
     height: 100%;
     background: radial-gradient(circle, #356, #200);
 }
+
+#startButton {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the button appears above the canvas */
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
